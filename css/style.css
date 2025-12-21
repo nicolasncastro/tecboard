@@ -1,0 +1,168 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* Estilo Desktop */
+
+header{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0px 0 300px;
+}
+header img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+header a{
+    font-size: 20px;
+    background-color: aliceblue;
+    color: #0E1014;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+header a:hover {
+    background-color: #c5c7c7;
+}
+
+
+body{
+    background-color: #0E1014;
+}
+
+h1 span{
+    color: #9747FF;
+}
+
+h1{
+    font-size: 64px;
+    color:#FFFFFF; 
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    font-display: swap;
+    text-align: center;
+    margin: 60px auto 24px auto;
+}
+
+p{
+    font-size: 24px; 
+    font-family:"Poppins", sans-serif;
+    font-display: swap;
+    color: #FFFFFF; 
+    text-align: center;
+    margin: 0px auto 0px auto;
+    width: 792px;
+    
+}
+
+a{
+    color:#FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+
+}
+a:hover{
+    background-color: #8233E8;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    margin: 40px auto;
+
+}
+
+/* tablet */
+@media(max-width: 768px){
+
+    header{
+        padding: 0px;
+    }
+
+    header img{
+        margin: 65px 0px 0px 60px;
+    }
+
+    header a{
+        margin: 65px 75px 0px 0px;
+    }
+
+    p{
+      width: 648px;  
+    }
+
+    section img{
+        display: block;
+        width: 659px; 
+    }
+}
+
+/* celular */
+@media(max-width: 375px){
+
+    header{
+        padding: 0px;
+    }
+
+    header img{
+        margin: 32px 0 0 16px; 
+        width: 180px;
+        height: 30px;
+    }
+
+    header a{
+        font-size: 15px;
+        margin: 30px 20px 0px 0px;
+        height: 40px;
+        
+        display: flex;
+        align-items: center; /* centraliza vertical */
+        justify-content: center; /* centraliza horizontal */
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+
+    a{
+        font-size: 20px;
+        
+        width: 251px;
+        height: 66px;
+    }
+    
+    section img{
+        width: 341px;
+        height: 230px ;
+    }
+}
